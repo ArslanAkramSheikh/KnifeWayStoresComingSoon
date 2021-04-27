@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.flex-container-logo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bgimg {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/sample.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 27px;
+    opacity: 10;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 25px;
+    width: 60%;
+}
+.middle h1{
+    margin: 15% 0% 0% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+hr {
+    margin: auto;
+    width: 20%;
+}
+.flex-timer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: -40px;
+}
+.flex-timer div{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.demo{
+    
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 10%;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+}

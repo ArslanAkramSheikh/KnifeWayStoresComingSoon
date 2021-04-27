@@ -7,16 +7,13 @@ body, html {
 
 }
 .flex-container-logo{
-    margin-bottom: 50%;
     padding-top: 10%;
+    font-size: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     color: #00E0F5;
-}
-.flex-container-logo h1{
-    margin-bottom: 50%;
 }
 
 .bgimg {
@@ -28,13 +25,18 @@ body, html {
     background-size: cover;
     position: relative;
     color: white;
-    font-size: 40px;
+    font-size: 27px;
     opacity: 10;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
 }
 
 .coming_soon {
     position: absolute;
-    /*top: 50%;*/
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -43,11 +45,13 @@ body, html {
 }
 .coming_soon h1{
     margin: 15% 0% 0% 0%;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 hr {
     margin: auto;
-    width: 30%;
+    width: 20%;
 }
 .flex-timer{
     display: flex;
@@ -72,14 +76,37 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.37);
 }
 @media screen and (max-width:768px){
-    .flex-container-logo h1{
-        font-size:50px;
-        margin-top: 45%;
-        margin-bottom: 20%;
+    .flex-container-logo{
+        padding-top: 40%;
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        color: #00E0F5;
     }
-    .coming_soon{
+    .coming_soon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
         font-size: 15px;
-        width: 100%;
+        width: 60%;
     }
-
+    .flex-timer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 25px;
+        
+    }
+    .flex-timer div{
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    hr{
+        width: 50%;
+    }
 }

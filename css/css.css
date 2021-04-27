@@ -7,11 +7,11 @@ body, html {
 
 }
 .flex-container-logo{
-    /*margin-bottom: 50%;*/
+    margin-bottom: 50%;
     padding-top: 10%;
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     color: #00E0F5;
 }
